@@ -1,11 +1,9 @@
-import React from 'react'
-import ProjectGallery1 from './PRJ-1'
-import ProjectGallery2 from './PRJ-2'
+import React from "react";
 
-const About = () => {
+function ProjectGallery1() {
   return (
     <>
-      <section class="text-gray-400 bg-gray-900 body-font">
+        <section class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
           <h1 class="text-4xl font-medium title-font italic text-white mb-24 text-center">
             Projects Gallery
@@ -219,13 +217,12 @@ const About = () => {
               </div>
             </div>
           </div>
-          <ProjectGallery2/>
 
           
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default About
+export default ProjectGallery1;

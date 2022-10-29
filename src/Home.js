@@ -1,24 +1,23 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import AboutUs from './About Us'
 import Intro from './components/Intro'
-import About from './components/About'
 import Testimonials from './components/Testimonials'
 import Pricing from './components/Pricing'
 import Statistics from './components/Statistics'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Contactme from './components/Contactme'
+import ProjectGallery1 from './components/PRJ-1'
 
 const Home = () => {
   return (
     <>
       <Navbar/>
       <Intro/>
-      <About/>
+      <ProjectGallery1/>
       <Testimonials/>
       <Pricing/>
       <Statistics/>
-      <Contact/>
+      <Contactme/>
       <Footer/>
     </>
   )

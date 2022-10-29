@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React,{useState} from 'react'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 
 const Contact = () => {
   
@@ -8,12 +8,11 @@ const Contact = () => {
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
 
-  const myuser = useNavigate()
+  // const myuser = useNavigate()
 
   const handlesubmit = (e) => {
     e.preventDefault();            //to prevent reloading
     console.log("clicked")
-    // e.target.reset();
     document.getElementById('feedback-msg').innerText="Feedback Submitted"
     document.getElementById("feedback-from").reset();
 
@@ -29,6 +28,8 @@ const Contact = () => {
   }
   return (
     <>
+
+
       <form class="text-gray-400 bg-gray-900 body-font relative" id='feedback-from'>
         <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg hover:border overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -43,7 +44,7 @@ const Contact = () => {
                 <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
                 <a class="text-indigo-400 leading-relaxed" href='/prashantrai642@gmail.com' type='email'>prashantrai642@gmail.com</a>
                 <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
-                <p class="leading-relaxed">7359030960</p>
+                <p class="leading-relaxed">9090909090</p>
               </div>
             </div>
           </div>

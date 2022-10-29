@@ -1,5 +1,5 @@
 import React from 'react'
-import Contact from './components/Contact'
+import Contactme from './components/Contactme'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 
@@ -7,7 +7,7 @@ const ContactUs = () => {
   return (
     <>
     <Navbar/>
-    <Contact/>
+    <Contactme/>
     <Footer/>
     </>
   )
